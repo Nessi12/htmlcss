@@ -1,1 +1,121 @@
 /* css */
+body{
+    margin:0px;
+    padding:0px;
+    background-color:gray;
+}
+
+#header{
+     background-color: gray;
+     padding: 0px;
+     color:  white;
+}
+
+h1{
+    padding:20px 40px; 
+    margin: 0px;
+    font-family: Verdana;
+    font-size: 60px;
+}
+/*navigation */
+#nav,#nav a{
+    background-color: #ccc;   /* this sets the background color to gray*/
+    padding:10px;
+}
+
+#nav a{
+   
+    margin: 0px;
+    color: black;
+    text-decoration: none; /*this removes the underline under the words when its a link*/
+    transition:background-color 2s, color 2s;   
+}
+
+#nav a:hover {
+    background-color: turquoise;
+    color:white;
+    transition:color 2s; /* This changes the background color of your link when the mouse is over it*/
+}
+/*end navigation*/
+
+#content{
+    padding: 20px 40px;
+    background-color: #eee;
+    margin:0px;
+}
+
+#footer{
+    padding: 20px 40px;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+#footer a{
+    text-decoration:none;
+}
+
+h2, h3{
+    font-family: arial;
+}
+.spotlight{
+    background-color: pink;
+    padding: 20px;
+}
+#page{
+    padding:80px;
+    background-image: url(http://elepho.com/wp-content/uploads/2015/06/accessories-foxy-image-of-purple-and-light-blue-tie-dye-baby-bedding-as-accessories-for-kid-bedroom-decorating-design-ideas-fetching-tie-dye-baby-bedding-for-bedroom-decoration-ideas.jpg) 
+}
+#nav{
+    padding-left: 40px;
+}
+
+/*
+#header{
+    padding: 20px;
+    width: 400px;
+    background-color: gray;
+    color: white;
+}
+
+    #header:hover{
+    background-color:pink;
+    width:200px;
+    transition:width 2s, background-color 2s, color 2s;
+    color: black;
+}
+
+#header h2{
+    background-color:#666fff
+    padding: 9px;
+    font-family: Comic Sans MS;
+    
+}
+
+#header h2:hover{
+    background-color:#666fff
+    padding: 9px;
+    font-size:30px;
+    transition: font-size 2s;
+}
+
+#content{
+    background-color: turquoise;
+    width: 400px;
+}
+
+
+#content:hover{
+    background-color: blue;
+    transition: background-color 2s;
+    
+}
+#footer{
+   background-color: turquoise;
+   width: 400px;
+}
+
+#footer:hover{
+    background-color: blue;
+    transition: background-color 2s;
+}
+*/
